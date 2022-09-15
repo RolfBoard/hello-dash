@@ -1,0 +1,6 @@
+version: "1.0"
+services:
+  web:
+    image: hello-dash:latest
+    ports:
+      - "80:80"

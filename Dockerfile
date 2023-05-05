@@ -1,4 +1,5 @@
 FROM busybox:latest
+LABEL org.opencontainers.image.source https://github.com/ChangeRoot/hello-dash
 ENV PORT=80
 
 ADD index.html /www/index.html

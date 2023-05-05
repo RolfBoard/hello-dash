@@ -1,6 +1,6 @@
 version: "1.0"
 services:
   web:
-    image: hello-dash:latest
+    image: ghcr.io/changeroot/hello-dash:latest
     ports:
       - "80:80"

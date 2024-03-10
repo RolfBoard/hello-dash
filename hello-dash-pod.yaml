@@ -15,7 +15,7 @@ metadata:
 spec:
   containers:
   - name: hello-dash
-    image: ghcr.io/changeroot/hello-dash:latest
+    image: ghcr.io/rolfboard/hello-dash:latest
     ports:
     - containerPort: 80
       name: hello-dash-svc

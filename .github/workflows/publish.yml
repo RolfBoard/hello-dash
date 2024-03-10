@@ -21,5 +21,4 @@ jobs:
       - name: Build hello-dash Docker image
         run: |
           docker build . --tag ghcr.io/rolfboard/hello-dash:latest
-          docker run ghcr.io/rolfboard/hello-dash:latest
           docker push ghcr.io/rolfboard/hello-dash:latest
